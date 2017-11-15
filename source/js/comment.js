@@ -5,17 +5,17 @@
 // it under the terms of the GNU Lesser General Public License as
 // published by the Free Software Foundation; either version 2.1 of the
 // License, or (at your option) any later version.
-// 
+//
 // This library is distributed in the hope that it will be useful, but
 // WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 // Lesser General Public License for more details.
-// 
+//
 // You should have received a copy of the GNU Lesser General Public
 // License along with this library; if not, write to the Free Software
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 // 02110-1301 USA
-// 
+//
 
 'use strict';
 
@@ -240,7 +240,7 @@ var _renderHTML = function _renderHTML(params) {
       <span class="discussion-item-icon">
         <svg aria-hidden="true" class="octicon octicon-tag" height="16" version="1.1" viewBox="0 0 16 16" width="14"><path fill-rule="evenodd" d="M15 1H6c-.55 0-1 .45-1 1v2H1c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h1v3l3-3h4c.55 0 1-.45 1-1V9h1l3 3V9h1c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zM9 11H4.5L3 12.5V11H1V5h4v3c0 .55.45 1 1 1h3v2zm6-3h-2v1.5L11.5 8H6V2h9v6z"></path></svg>
       </span>
-      The above comments are provided by 
+      The above comments are provided by
         <a href="http://github.com/wzpan/comment.js" class="discussion-item-entity" target="_blank">comment.js</a> with the help of ${site}.
     </h3>
 </div>
@@ -259,7 +259,7 @@ var _renderHTML = function _renderHTML(params) {
             _res2 += _renderComment(comment);
         });
         _res2 += footer;
-        _res2 += '</div></div>';        
+        _res2 += '</div></div>';
         $(comments_target).append(_res2);
     }
     var issue_url = void 0;
