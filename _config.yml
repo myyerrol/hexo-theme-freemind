@@ -97,8 +97,8 @@ google_analytics:
   enable: false
   siteid:
 baidu_tongji:
-  enable: false
-  siteid:
+  enable: true
+  siteid: 434fe3e4ef6c32f9348f8993db1f44b3
 
 # search
 # swiftype_key: ZP2ZSuHgipSZfRyU8uTR
