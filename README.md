@@ -1,4 +1,4 @@
-Hexo-Theme-Freemind
+hexo-theme-freemind
 ===
 
 ![screenshots](http://wzpan.github.io/hexo-theme-freemind-blog/images/screenshots.png)
@@ -15,6 +15,8 @@ Freemind aims at fully taking advantages of Bootstrap.
 
 * Hexo >= 3.0
 * [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap) >= 0.0.8 (optional)
+* [hexo-generator-search](https://github.com/paichyperiondev/hexo-generator-search) (optional)
+* [hexo-wordcount](https://github.com/willin/hexo-wordcount) (optional)
 
 ## Features ##
 
@@ -30,32 +32,45 @@ Freemind aims at fully taking advantages of Bootstrap.
 * **Color Themes** - luxuriant Bootswatch color themes for choice.
 * **Pin to top** - able to pin any article to the top of the first index page.
 * **Built-in Comment System** - a comment system based on wzpan another project [comment.js](https://github.com/wzpan/comment.js).
+* **Word Count** - implement the word count of articles and  prediction of minutes to reading.
 
 ![color themes](http://wzpan.github.io/hexo-theme-freemind-blog/images/color-themes.gif)
 
 ## Install ##
 
-1) install theme:
+1) Install theme:
 
 ``` sh
 $ git clone https://github.com/myyerrol/hexo-theme-freemind.git themes/freemind
 ```
 
-2) install [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap) (*optional*):
+2) Install [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap) (*optional*):
 
 ``` sh
 $ npm install hexo-tag-bootstrap --save
 ```
 
-3) install [hexo-generator-search](https://github.com/paichyperiondev/hexo-generator-search) (*optional*):
+3) Install [hexo-generator-search](https://github.com/paichyperiondev/hexo-generator-search) (*optional*):
 
 ``` sh
 $ npm install hexo-generator-search --save
 ```
 
-4) Create pages
+4) Install [hexo-wordcount](https://github.com/willin/hexo-wordcount) (*optional*):
 
-Freemind offers you the customized Categories, Tags and About pages. But you need to manually create these page at your 'source' folder.
+```sh
+$ npm install hexo-wordcount --save
+```
+
+If **node.js <= 7.6.0**, please use following commands:
+
+```sh
+$ npm install hexo-wordcount@2 --save
+```
+
+5) Create pages
+
+Freemind offers you the customized Categories, Tags and About pages. But you need to manually create these page at your `source` folder.
 
 For example, to create a `Categories` page, you may create a `index.html` file at `source/categories/` folder with the following contents:
 
@@ -127,11 +142,11 @@ widgets:
 - links
 
 rss:
-favicon: favicon.png
+favicon:
 fancybox: true
 duoshuo_shortname:
 
-# analytics
+# Analytics
 google_analytics:
   enable: false
   siteid:
@@ -142,11 +157,11 @@ baidu_tongji:
 # Search
 swiftype_key:
 
-# share button
+# Share button
 bdshare: false
 jiathis: false
 
-# built-in comment system
+# Built-in comment system
 comment_js:
   type: "github"
   user: "your-account"
@@ -213,7 +228,7 @@ This theme is provided under [MIT License](http://opensource.org/licenses/MIT).
 
 ## People Using Freemind ##
 
-see [Examples](https://github.com/wzpan/freemind/wiki/Examples).
+See [Examples](https://github.com/wzpan/freemind/wiki/Examples).
 
 ## Credits ##
 
