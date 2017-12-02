@@ -178,10 +178,10 @@ comment_js:
 - **analytics** -  统计ID，支持Google Analytics和百度统计。
 - **swiftype_key** - Swifttype是站内搜索的key。如果希望使用内置的搜索引擎，则可以保留为空，而不去配置它。
 - **bdshare** - 百度分享按钮。
-- **jiathis** - jiathis分享按钮。
+- **jiathis** - Jiathis分享按钮。
 - **comment_js** - [comment.js](http://github.com/wzpan/comment.js)的配置：
   - `type`：要作为后端的站点。目前支持Github和OSChina。
-  - `user`：您的 Github 用户名。
+  - `user`：您的Github用户名。
   - `repo`：您用作评论后端的仓库名。
   - `client_id`（可选但建议）：您注册的OAuth App的client id。
   - `client_secret`（可选但建议）：您注册的OAuth App的client secret。
@@ -202,7 +202,7 @@ Freemind主题额外提供了一些新的front-matter的选项，利用这些选
 - **feature** - 为文章添加一张feature图片，这张图片将展示在主页的文章列表中。
 - **toc** - 生成文章目录。
 - **top** - 是否要将本文置顶。
-- **issue_id** - comment.js的`issue_id`，用于显式地指定Github上的哪个issue与本文相对应。通常情况下你并不需要手动设置这个，因为comment.js会根据文章标题自动寻找匹配的 issue，当文章没有和你要的issue对应的时候你才需要设置它。
+- **issue_id** - comment.js的`issue_id`，用于显式地指定Github上的哪个issue与本文相对应。通常情况下你并不需要手动设置这个，因为comment.js会根据文章标题自动寻找匹配的issue，当文章没有和你要的issue对应的时候你才需要设置它。
 
 示例：
 
