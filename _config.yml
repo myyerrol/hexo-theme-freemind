@@ -100,14 +100,14 @@ baidu_tongji:
   enable: true
   siteid: eac960348a384b717470a4acab997cbc
 
-# search
-# swiftype_key: ZP2ZSuHgipSZfRyU8uTR
+# Search
+swiftype_key:
 
-# share widgets
+# Share widgets
 bdshare: false
 jiathis: false
 
-# built-in comment system
+# Built-in comment system
 comment_js:
   type: "github"
   user: "myyerrol"
