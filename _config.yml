@@ -23,35 +23,39 @@ menu:
 
 links:
   - title: "myyerrol的GitHub"
-    url: https://www.github.com/myyerrol
+    url: https://github.com/myyerrol
     intro: "我的GitHub。"
     icon: "fa fa-github"
   - title: "maksyuki的GitHub"
-    url: https://www.github.com/maksyuki
+    url: https://github.com/maksyuki
     intro: "maksyuki的GitHub。"
     icon: "fa fa-github"
   - title: "mawenke的GitHub"
-    url: https://www.github.com/mawenke
+    url: https://github.com/mawenke
     intro: "mawenke的GitHub。"
     icon: "fa fa-github"
   - title: "liao-zhihan的GitHub"
-    url: https://www.github.com/liao-zhihan
+    url: https://github.com/liao-zhihan
     intro: "liao-zhihan的GitHub。"
     icon: "fa fa-github"
-  - title: "西工大RoboCup@Home的GitHub"
-    url: https://www.github.com/xm-project
-    intro: "西工大RoboCup@Home的GitHub。"
+  - title: "aguegu的GitHub"
+    url: https://github.com/aguegu
+    intro: "aguegu的GitHub。"
     icon: "fa fa-github"
-  - title: "西工大RoboCup@Rescue的GitHub"
-    url: https://www.github.com/team-explorer-rescue-robot
-    intro: "西工大RoboCup@Rescue的GitHub。"
+  - title: "西工大家政组的GitHub"
+    url: https://github.com/xm-project
+    intro: "西工大舞蹈机器人基地家政组的GitHub。"
     icon: "fa fa-github"
-  - title: "西工大篮球机器人项目的GitHub"
-    url: https://www.github.com/nwpu-basketball-robot
-    intro: "西工大篮球机器人项目的GitHub。"
+  - title: "西工大救援组的GitHub"
+    url: https://github.com/team-explorer-rescue-robot
+    intro: "西工大舞蹈机器人基地救援组的GitHub。"
+    icon: "fa fa-github"
+  - title: "西工大篮球组的GitHub"
+    url: https://github.com/nwpu-basketball-robot
+    intro: "西工大舞蹈机器人基地篮球组的GitHub。"
     icon: "fa fa-github"
   - title: "HeadsFree项目的GitHub"
-    url: https://www.github.com/HANDS-FREE
+    url: https://github.com/HANDS-FREE
     intro: "HeadsFree项目的GitHub。"
     icon: "fa fa-github"
   - title: "maksyuki的博客"
@@ -61,6 +65,10 @@ links:
   - title: "mawenke的博客"
     url: https://mawenke.github.io
     intro: "mawenke的博客。"
+    icon: "fa fa-globe"
+  - title: "aguegu的博客"
+    url: https://aguegu.github.io
+    intro: "aguegu的博客。"
     icon: "fa fa-globe"
   - title: "HandsFree项目的网站"
     url: https://www.hands-free.org.cn
