@@ -23,11 +23,14 @@
     <i class="fa fa-user"></i>&nbsp阅读量
     <span id="busuanzi_value_page_pv">
     <i class="fa fa-spinner fa-spin"></i>
-    </span>次
-  </span>&nbsp
+    </span>次&nbsp
+  </span>
 
   <i class="fa fa-file-word-o"></i>&nbsp文章字数
-  <span class="post-count"><%= wordcount(item.content) %></span>字&nbsp
+  <span class="post-count"><%= wordcount(item.content) %></span>字
+
+  &nbsp
+
   <i class="fa fa-clock-o"></i>&nbsp阅读时长
   <span class="post-count"><%= min2read(item.content) %></span>分钟
 
