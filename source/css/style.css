@@ -546,30 +546,36 @@ td {
   *zoom: 1;
 }
 
-.about-info-icon{
+/*
+===============================================================================
+About Page
+===============================================================================
+*/
+
+.about-info-icon {
   float: left;
 }
 
-.about-info-content{
+.about-info-content {
   /*float: left;*/
   padding-left: 25px;
   font-family: "Calibri", "Arial", "Microsoft YaHei", "黑体";
 }
 
-.about-info-content button{
+.about-info-content button {
   margin-bottom: 3px;
   -webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
   transition: all .2s linear;
 }
 
-.about-info-content button:hover{
+.about-info-content button:hover {
   -webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
   transition: all .2s linear;
 }
 
-.line-warp{
+.line-warp {
   position: relative;
   width: 80%;
   min-width: 200px;
@@ -578,7 +584,7 @@ td {
   margin-bottom: 30px;
 }
 
-.line-warp:before{
+.line-warp:before {
   position: absolute;
   content: '';
   left:21px;
@@ -589,28 +595,28 @@ td {
   background: #adadad;
 }
 
-.line-item{
+.line-item {
   position: relative;
   margin-top: 30px;
 }
 
-.line-icon-warp{
+.line-icon-warp {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.line-icon-warp span:first-child{
+.line-icon-warp span:first-child {
   font-size: 22px;
 }
 
-.line-icon-warp .badge{
+.line-icon-warp .badge {
   font-size: 13px;
 }
 
-.line-content-box{
+.line-content-box {
   position: relative;
-  margin-left: 155px;
+  margin-left: 180px;
   background: #e5e5e5;
   border-radius: .25em;
   padding: 1em;
@@ -623,7 +629,7 @@ td {
   width: 80%;
 }
 
-.line-content-box:before{
+.line-content-box:before {
   content: '';
   position: absolute;
   top: 14px;
@@ -634,7 +640,7 @@ td {
   border-right: 7px solid #e5e5e5;
 }
 
-.breakline{
+.breakline {
   padding: 0 30px 0;
   margin: 40px 0;
   text-align: center;
@@ -642,11 +648,11 @@ td {
   color: #ddd;
 }
 
-.timeline-header{
+.timeline-header {
   text-align: center;
 }
 
-.timeline-header span{
+.timeline-header span {
   padding: 2px 10px 2px 6px;
   font-size: 12px;
 }
