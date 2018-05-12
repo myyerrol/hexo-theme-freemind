@@ -70,6 +70,14 @@ links:
     url: https://aguegu.github.io
     intro: "aguegu的博客。"
     icon: "fa fa-globe"
+  - title: "pengzhihui的博客"
+    url: http://www.pengzhihui.xyz/
+    intro: pengzhihui的博客。
+    icon: "fa fa-globe"
+  - title: "CSKSOFT的博客"
+    url: http://www.csksoft.net/blog
+    intro: CSKSOFT的博客。
+    icon: "fa fa-globe"
   - title: "HandsFree项目的网站"
     url: https://www.hands-free.org.cn
     intro: "HandsFree项目的网站。"
