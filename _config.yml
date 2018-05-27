@@ -96,12 +96,12 @@ links:
     icon: "fa fa-link"
 
 widgets:
-- search
-- category
-- tagcloud
-- recent_posts
-- links
-- recent_comments
+  - search
+  - category
+  - tagcloud
+  - recent_posts
+  - links
+  - recent_comments
 
 rss:
 fancybox: true
