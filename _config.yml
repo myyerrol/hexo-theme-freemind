@@ -79,3 +79,7 @@ comment_js:
   client_id: "0b55507f5d916add106e"
   client_secret: "93ad6038a36df9878cfb32456fd507fd895800ce"
   count: 5
+
+# MathJax
+mathjax:
+  enable: true
