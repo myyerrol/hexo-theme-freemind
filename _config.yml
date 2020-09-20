@@ -87,8 +87,19 @@ comment_js:
   repo: "myyerrol_website_comment"
   client_id: "95098d084621006b4f69"
   client_secret: "72389de7182c8b4ecf69363b316da57baf407432"
-  count: 20
+  count: 15
 
 # MathJax
 mathjax:
   enable: true
+
+# Valine
+valine:
+  enable: true
+  appId: "QMYiREeDi9SFmzTzPKVuVDTc-gzGzoHsz"
+  appKey: "HwMiVpt4CBq1GURHowK8u6JC"
+  placeholder: "提交评论时请留下邮箱，收到回复后将自动通知"
+  avatar: "robohash"
+  page: 15
+  enableQQ: true
+  requiredFields: ["nick", "mail"]
