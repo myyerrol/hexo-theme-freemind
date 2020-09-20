@@ -1,7 +1,7 @@
-<% if (page.comment){ %>
+<% if (page.comments){ %>
 <section id="comment">
   <h2 class="title"><%= __('comment') %></h2>
-  <% if (theme.comment_js) { %>
+  <% if (theme.comment_js.enable) { %>
      <div id="comment-thread"></div>
      <div id="loading-spin"></div>
      <script type="text/javascript">

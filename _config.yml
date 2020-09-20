@@ -42,6 +42,14 @@ links:
     url: https://sunjiadai.xyz/blog/
     intro: Jiadai Sun的博客。
     icon: "fa fa-globe"
+  - title: "IAMLIUBO的博客"
+    url: https://blogs.oopswow.com/
+    intro: IAMLIUBO的博客。
+    icon: "fa fa-globe"
+  - title: "阿正的个人站"
+    url: http://wenzheng.club/
+    intro: 阿正的博客。
+    icon: "fa fa-globe"
 
 widgets:
   - search
@@ -73,6 +81,7 @@ jiathis: false
 
 # Built-in comment system
 comment_js:
+  enable: false
   type: "github"
   user: "myyerrol"
   repo: "myyerrol_website_comment"
