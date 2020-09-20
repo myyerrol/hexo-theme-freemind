@@ -96,8 +96,8 @@ mathjax:
 # Valine
 valine:
   enable: true
-  appId: "QMYiREeDi9SFmzTzPKVuVDTc-gzGzoHsz"
-  appKey: "HwMiVpt4CBq1GURHowK8u6JC"
+  appId: "fyCQYW3B7odgRYQc2oReUMk9-MdYXbMMI"
+  appKey: "rt5YjKx2qGlWLU7jwIUHQ7JL"
   placeholder: "提交评论时请留下邮箱，收到回复后将自动通知"
   avatar: "robohash"
   page: 15
