@@ -57,7 +57,7 @@ widgets:
   - tagcloud
   - recent_posts
   - links
-  - recent_comments
+  # - recent_comments
 
 rss:
 fancybox: true
@@ -81,7 +81,7 @@ jiathis: false
 
 # Built-in comment system
 comment_js:
-  enable: false
+  enable: true
   type: "github"
   user: "myyerrol"
   repo: "myyerrol_website_comment"
