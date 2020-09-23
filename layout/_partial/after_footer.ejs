@@ -1,4 +1,4 @@
-<% if ((theme.mathjax.enable && page.mathjax)){ %>
+<% if ((theme.mathjax.enable && page.mathjax)) { %>
 <%- partial('mathjax') %>
 <% } %>
 
@@ -11,7 +11,8 @@
 <script src="<%- config.root %>js/bootstrap.min.js"></script>
 <script src="<%- config.root %>js/main.js"></script>
 <script src="<%- config.root %>js/search.js"></script>
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+<script src="<%- config.root %>js/fadetoc.js"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </script>
 
 <% if (theme.fancybox){ %>

@@ -53,6 +53,7 @@
   <link rel="stylesheet" href="<%- config.root %>css/highlight-default.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="<%- config.root %>css/google-fonts.css" media="screen" type="text/css">
   <link rel="stylesheet" href="<%- config.root %>css/comment.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="<%- config.root %>css/article.css" media="screen" type="text/css">
   <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js"></script>
@@ -67,6 +68,20 @@
     <script src="<%- config.root %>js/highlight.min.js"></script>
   <script src="<%- config.root %>js/spin.min.js"></script>
   <% } %>
+
+  <script>
+    $(document).ready(function() {
+      $('[data-spy="affix"]').each(function () {
+        var $spy = $(this)
+        , data = $spy.data()
+        data.offset = data.offset || {}
+        data.offsetBottom && (data.offset.bottom = data.offsetBottom)
+        data.offsetTop && (data.offset.top = data.offsetTop)
+        $spy.affix(data)
+      });
+    });
+  </script>
+
   <!-- analytics -->
   <%- partial('post/analytics') %>
 
