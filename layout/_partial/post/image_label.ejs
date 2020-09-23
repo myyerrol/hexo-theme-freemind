@@ -1,0 +1,18 @@
+<% if (page.imageLabel) { %>
+<script type="text/javascript">
+    var imageLabel = "<%= page.imageLabel %>";
+    var images = document.getElementsByTagName("img");
+    window.onload = function() {
+        for (var i = 0; i < images.length; i++) {
+            var image = images[i];
+            var label = image.alt;
+            var domPara  = image.parentNode.parentNode;
+            var domLabel = document.createElement("span");
+            domLabel.setAttribute("style",
+                                  "display:block; text-align:center; color:gray");
+            domLabel.innerText = label;
+            domPara.appendChild(domLabel);
+        }
+    }
+</script>
+<% } %>
