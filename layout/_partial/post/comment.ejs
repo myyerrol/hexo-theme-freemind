@@ -1,4 +1,4 @@
-<% if (page.comments){ %>
+<% if (page.comments) { %>
 <section id="comment">
   <h2 class="title"><%= __('comment') %></h2>
   <% if (theme.valine.enable) { %>
@@ -6,9 +6,9 @@
     <script src="https://unpkg.com/valine/dist/Valine.min.js"></script>
     <script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript">
-      var valineConfig = <%- JSON.stringify(theme.valine) %>;
-      valineConfig.el = "#vcomment";
-      new Valine(valineConfig);
+      var config = <%- JSON.stringify(theme.valine) %>;
+      config.el = "#vcomment";
+      new Valine(config);
     </script>
   <% } else if (theme.comment_js.enable) { %>
     <div id="comment-thread"></div>

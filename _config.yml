@@ -103,3 +103,7 @@ valine:
   page: 15
   enableQQ: true
   requiredFields: ["nick", "mail"]
+
+# Copyright
+copyright:
+  enable: true
