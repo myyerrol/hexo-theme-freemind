@@ -37,6 +37,10 @@
     <meta property="og:image" content="<%= config.cover %>"/>
   <% } %>
 
+  <% if (theme.baidu_ziyuan.enable) { %>
+    <meta name="baidu-site-verification" content="<%= theme.baidu_ziyuan.siteid %>">
+  <% } %>
+
   <% if (theme.rss){ %>
     <link rel="alternative" href="<%- config.root %><%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
   <% } %>

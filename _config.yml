@@ -70,7 +70,7 @@ google_analytics:
   siteid: UA-110461716-1
 baidu_tongji:
   enable: true
-  siteid: eac960348a384b717470a4acab997cbc
+  siteid: 0ba11ac3c71320751106ce5fee5c0836
 
 # Search
 swiftype_key:
@@ -107,3 +107,8 @@ valine:
 # Copyright
 copyright:
   enable: true
+
+# Baidu ziyuan
+baidu_ziyuan:
+  enable: true
+  siteid: "code-oxnlXOGz1W"
