@@ -112,3 +112,7 @@ copyright:
 baidu_ziyuan:
   enable: true
   siteid: "code-oxnlXOGz1W"
+
+# Baidu push
+baidu_push:
+  enable: true
